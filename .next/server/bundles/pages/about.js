@@ -72,6 +72,31 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/Image.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "/Users/tacotruffles/Development/Web Development/React/react-ssr-next/components/Image.js";
+
+
+var Image = function Image() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    width: "350",
+    src: "https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/review_gallery_thumbnail_large/public/screenshots/csm-tv/gumby-ss2.jpg?itok=epBRq5Cb",
+    alt: "Gumby!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Image);
+
+/***/ }),
+
 /***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81,7 +106,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Image__ = __webpack_require__("./components/Image.js");
 var _jsxFileName = "/Users/tacotruffles/Development/Web Development/React/react-ssr-next/pages/about.js";
+
 
 
 
@@ -93,30 +120,39 @@ var About = function About() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     }
   }, "About"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 8
     }
-  }, "Back")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    style: {
+      display: "block",
+      margin: "10px 0"
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     }
-  }, "I was a wizard once."));
+  }, "Back")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Image__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }, "I was a pile of clay once"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
